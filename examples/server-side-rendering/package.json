@@ -13,6 +13,8 @@
   "devDependencies": {
     "@babel/cli": "^7.1.2",
     "@babel/node": "^7.0.0",
+    "@loadable/babel-plugin": "^5.6.0",
+    "@loadable/webpack-plugin": "^5.5.0",
     "babel-loader": "^8.0.4",
     "css-loader": "^2.1.0",
     "mini-css-extract-plugin": "^0.5.0",
@@ -23,6 +25,8 @@
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
+    "@loadable/component": "^5.6.0",
+    "@loadable/server": "^5.6.0",
     "express": "^4.16.4",
     "moment": "^2.22.2",
     "react": "^16.6.0",

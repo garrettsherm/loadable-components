@@ -1,4 +1,4 @@
-const loadableBabelPlugin = require('../../packages/babel-plugin')
+const loadableBabelPlugin = require('@loadable/babel-plugin')
 
 function isWebTarget(caller) {
   return Boolean(caller && caller.target === 'web')
